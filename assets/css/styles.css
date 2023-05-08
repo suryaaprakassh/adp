@@ -142,7 +142,9 @@ img {
     transition: .5s;
   }
 }
-
+.skill_title_div{
+  text-align: left;
+}
 .nav__item {
   margin-bottom: var(--mb-4);
 }
@@ -280,7 +282,6 @@ img {
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
-  text-align: center;
 }
 
 .skills__subtitle {
@@ -320,8 +321,8 @@ img {
 
 .skills__img {
   border-radius: .5rem;
+  width:420px;
 }
-
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
